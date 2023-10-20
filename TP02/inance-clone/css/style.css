@@ -1,0 +1,124 @@
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background-color: #040000;
+    padding: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top-bar span i {
+    margin-right: 4px;
+    color: #ff8a1d;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #d1e3ff;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none; 
+    color: black;
+    padding: 10px;
+}
+a{
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1e3ff;
+    flex-wrap: wrap;
+}
+
+main div h1 {
+    color: rgba(30, 30, 236, 0.726);
+    margin-bottom: 15px;
+}
+
+main div:first-of-type {
+    width: 30%;
+}
+main div a{
+    cursor: pointer;
+    border: 1px solid #ff8a1d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 0;
+    background: #ff8a1d;
+    color: #fff;
+}
+
+main div a:hover {
+    background-color: transparent;
+    color: #ff8a1d;
+}
+
+.box{
+   display: flex;
+   justify-content: center;
+   padding: 15px;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.box img {
+    width: 90px;
+}
+
+.box div {
+    width: 300px;
+    height: 200px;
+    background-color: #ff8a1d;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+
+}
+
+.about div:first-of-type {
+    width: 30%;
+}
+.about div :first-of-type{
+    margin-bottom: 20px;
+}
+.about div a{
+    cursor: pointer;
+    background-color: blue;
+    padding: 10px 15px;
+    color: #fff;
+    border: 1px solid blue;
+}
+
+.about div a:hover {
+    background-color: #fff;
+    color: blue;
+}
